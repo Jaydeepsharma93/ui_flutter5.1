@@ -25,10 +25,70 @@ class MyApp extends StatelessWidget {
           ),
           body: Center(
             child: Container(
-              height: 150,
-              width: 300,
+              alignment: Alignment.centerRight,
+              height: 115,
+              width: 320,
               decoration: BoxDecoration(
-                color: Color(0xffFCC8C8),
+                color: Colors.red,
+              ),
+              child: Container(
+                alignment: Alignment.center,
+                height: 115,
+                width: 295,
+                decoration: BoxDecoration(
+                  color: Color(0xffFCC8C8),
+                ),
+                child: RichText(
+                  text:TextSpan(
+                    children:[
+                      TextSpan(
+                        text:'Shaping ',
+                        style:TextStyle(
+                          color: Colors.black,
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold,
+                        )
+                      ),
+                      TextSpan(
+                          text:'"skills" ',
+                          style:TextStyle(
+                            color: Colors.black,
+                            fontSize: 17,
+                          )
+                      ),
+                      TextSpan(
+                          text:'for ',
+                          style:TextStyle(
+                            color: Colors.black,
+                            fontSize: 17,
+                            fontWeight: FontWeight.bold,
+                          )
+                      ),
+                      TextSpan(
+                          text:'"scaling" ',
+                          style:TextStyle(
+                            color: Colors.black,
+                            fontSize: 17,
+                          )
+                      ),
+                      TextSpan(
+                          text:'higher\n',
+                          style:TextStyle(
+                            color: Colors.black,
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                          )
+                      ),
+                      TextSpan(
+                          text:'-RNW',
+                          style:TextStyle(
+                            color: Colors.black,
+                            fontSize: 17,
+                          )
+                      ),
+                    ]
+                  )
+                ),
               ),
             ),
           ),
