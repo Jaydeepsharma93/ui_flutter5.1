@@ -28,18 +28,18 @@ class MyApp extends StatelessWidget {
               alignment: Alignment.centerRight,
               height: 115,
               width: 320,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.red,
               ),
               child: Container(
                 alignment: Alignment.center,
                 height: 115,
                 width: 295,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   color: Color(0xffFCC8C8),
                 ),
                 child: RichText(
-                  text:TextSpan(
+                  text:const TextSpan(
                     children:[
                       TextSpan(
                         text:'Shaping ',
