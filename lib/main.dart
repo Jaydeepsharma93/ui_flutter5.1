@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
-          backgroundColor: Color(0xff7CB342),
+          backgroundColor: const Color(0xff7CB342),
           appBar: AppBar(
             shadowColor: Colors.black,
-            backgroundColor: Color(0xff8BC34A),
+            backgroundColor: const Color(0xff8BC34A),
             title:const Text('My App',
              style: TextStyle(
                fontWeight: FontWeight.bold,
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                decoration: const BoxDecoration(
                  color: Color(0xffB2FF59),
                ),
-                child: Text('oooo',
+                child: const Text("oooo",
                  style: TextStyle(
                    color: Color(0xff333a2d),
                    fontSize: 140,

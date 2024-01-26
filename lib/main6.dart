@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color(0xff009688),
+            backgroundColor: const Color(0xff009688),
             title: const Text('3D Cube',
               style: TextStyle(
                 color: Colors.white,

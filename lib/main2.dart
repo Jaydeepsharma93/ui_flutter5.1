@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.red,
-            title: Text('Misssion of RNW',
+            title: const Text('Mission of RNW',
               style: TextStyle(
                 color: Colors.white,
               ),

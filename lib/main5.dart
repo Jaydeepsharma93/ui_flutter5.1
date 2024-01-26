@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: const Color(0xff191919),
-            title: const Text('Opened Doors',
+            backgroundColor: const Color(0xff4caf50),
+            title: const Text('Letter Cover',
               style: TextStyle(
                 color: Colors.white,
               ),
@@ -26,17 +26,17 @@ class MyApp extends StatelessWidget {
           body: Center(
             child: Container(
               height: 300,
-              width: 250,
+              width: 280,
               decoration: const BoxDecoration(
-                color: Colors.black,
+                color: Color(0xff4caf50),
                 border: Border.symmetric(
                   horizontal: BorderSide(
-                    color: Colors.black,
-                    width: 40,
+                    color: Color(0xff72c075),
+                    width: 130,
                   ),
                   vertical: BorderSide(
-                    color: Color(0xffeeeeee),
-                    width: 70,
+                    color: Color(0xff4caf50),
+                    width: 120,
                   ),
                 ),
               ),
