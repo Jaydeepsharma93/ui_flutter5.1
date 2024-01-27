@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: const Color(0xff795548),
-            title: const Text('Mashal',
+            title: const Text(
+              'Mashal',
               style: TextStyle(
                 color: Colors.white,
               ),
@@ -24,26 +25,29 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
           ),
           body: Center(
-            child: Stack(
-              children:[
-                   Container(
-                    height: 250,
-                    width: 200,
-                    decoration: const BoxDecoration(
-                    color: Color(0xff795548),
-                    border: Border.symmetric(
-                      horizontal: BorderSide(
-                        color: Color(0xff87665b),
-                        width: 40,
-                      ),
-                      vertical: BorderSide(
-                        color: Color(0xffffffff),
-                        width: 60,
-                      ),
-                    ),
+            child: Container(
+              height: 250,
+              width: 200,
+              decoration: const BoxDecoration(
+                color: Color(0xff795548),
+                border: Border.symmetric(
+                  horizontal: BorderSide(
+                    color: Color(0xff87665b),
+                    width: 30,
                   ),
+                  vertical: BorderSide(
+                    color: Color(0xffffffff),
+                    width: 60,
                   ),
-             ]
+                ),
+              ),
+              child: const Text(
+                '🔥',
+                style: TextStyle(
+                  height: -1.9,
+                  fontSize: 70,
+                ),
+              ),
             ),
           ),
         ),
